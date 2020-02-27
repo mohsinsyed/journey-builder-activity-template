@@ -20,6 +20,8 @@
                     "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}"
                 }, {
                     "LastName": "{{Contact.Attribute.JourneyEntrySource.LastName}}"
+                },{
+                    "LastName": "test"
                 }
                 
             ],
