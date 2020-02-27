@@ -190,7 +190,7 @@ define([
        // payload['metaData'].isConfigured = true;
 
        // connection.trigger('updateActivity', payload);
-        connection.trigger('updateActivity', payload);
+        connection.trigger('updateActivity');
     }
 
     function getMessage() {
