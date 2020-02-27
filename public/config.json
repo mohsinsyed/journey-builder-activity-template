@@ -14,7 +14,7 @@
     "arguments": {
         "execute": {
             "inArguments": [
-                {{
+                {
                     "contactIdentifier": "{{Contact.Key}}"
                 },
                 {
