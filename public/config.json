@@ -15,7 +15,7 @@
         "execute": {
             "inArguments": [
                 {
-                    "emailAddress": "{{Contact.Attribute.CustomActivity.EmailAddress}}"
+                    "emailAddress": "{{Contact.Attribute.JourneyEntrySource.EmailAddress}}"
                 }
                 
             ],
