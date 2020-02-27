@@ -14,14 +14,14 @@
     "arguments": {
         "execute": {
             "inArguments": [
+                {{
+                    "contactIdentifier": "{{Contact.Key}}"
+                },
                 {
-                    "emailAddress": "{{Contact.Attribute.JourneyEntrySource.EmailAddress}}"
-                }, {
-                    "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}"
-                }, {
-                    "LastName": "{{Contact.Attribute.JourneyEntrySource.LastName}}"
-                },{
-                    "LastName": "test"
+                    "emailAddress": "{{InteractionDefaults.Email}}"
+                },
+                {
+                    "lastLogin": "{{Contact.Attribute.Engagement.LastLogin}}"
                 }
                 
             ],
