@@ -1,7 +1,7 @@
 {
     "workflowApiVersion": "1.1",
     "metaData": {
-       "icon": "images/sms.png",
+       "icon": "images/icon.png",
        "category": "message"
     },
     "type": "REST",
@@ -15,15 +15,11 @@
         "execute": {
             "inArguments": [
                 {
-                    "contactIdentifier": "{{Contact.Key}}"
-                },
-                {
                     "emailAddress": "{{InteractionDefaults.Email}}"
                 },
                 {
-                    "lastLogin": "{{Contact.Attribute.Engagement.LastLogin}}"
+                    "phoneNumber": "{{Contact.Default.PhoneNumber}}"
                 }
-                
             ],
             "outArguments": [
                 {
@@ -33,28 +29,19 @@
             "url": "https://enprpm6p9ss9.x.pipedream.net/execute"
         }
     },
-      "configurationArguments": {
-      "applicationExtensionKey": "4c358e30-6494-45c7-9ce3-dfcc02c85a96",
-      "save": {
-        "url": "https://enprpm6p9ss9.x.pipedream.net/save",
-          "verb": "POST",
-        "useJwt": true
+    "configurationArguments": {
+       "save": {
+           "url": "https://enprpm6p9ss9.x.pipedream.net/save"
        },
        "publish": {
-        "url": "https://enprpm6p9ss9.x.pipedream.net/publish",
-           "verb": "POST",
-        "useJwt": true
+           "url": "https://enprpm6p9ss9.x.pipedream.net/publish"
        },
-      "stop": {
-        "url": "https://enprpm6p9ss9.x.pipedream.net/stop",
-           "verb": "POST",
-        "useJwt": true
-      },
-      "validate": {
-        "url": "https://enprpm6p9ss9.x.pipedream.net/validate",
-        "verb": "POST",
-        "useJwt": true
-      }
+       "validate": {
+           "url": "https://enprpm6p9ss9.x.pipedream.net/validate"
+       },
+       "stop": {
+           "url": "https://enprpm6p9ss9.x.pipedream.net/stop"
+       }
     },
     "wizardSteps": [
        { "label": "Step 1", "key": "step1" },
