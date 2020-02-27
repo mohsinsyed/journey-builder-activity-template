@@ -185,7 +185,7 @@ define([
         // may be overridden as desired.
         payload.name = name;
 
-        payload['arguments'].execute.inArguments = [{ "FirstName": "{{Contact.Attribute.JourneyEntrySource.FirstName}}" }];
+        payload['arguments'].execute.inArguments = [{ "ContactKey": "{{Contact.Key}}" }];
 
         payload['metaData'].isConfigured = true;
 
