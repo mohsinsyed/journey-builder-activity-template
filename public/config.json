@@ -26,21 +26,21 @@
                     "foundSignupDate": ""
                 }
             ],
-            "url": "https://enprpm6p9ss9.x.pipedream.net/execute"
+            "url": "https://eneyig9pql1a.x.pipedream.net/execute"
         }
     },
     "configurationArguments": {
        "save": {
-           "url": "https://enprpm6p9ss9.x.pipedream.net/save"
+           "url": "https://eneyig9pql1a.x.pipedream.net/save"
        },
        "publish": {
-           "url": "https://enprpm6p9ss9.x.pipedream.net/publish"
+           "url": "https://eneyig9pql1a.x.pipedream.net/publish"
        },
        "validate": {
-           "url": "https://enprpm6p9ss9.x.pipedream.net/validate"
+           "url": "https://eneyig9pql1a.x.pipedream.net/validate"
        },
        "stop": {
-           "url": "https://enprpm6p9ss9.x.pipedream.net/stop"
+           "url": "https://eneyig9pql1a.x.pipedream.net/stop"
        }
     },
     "wizardSteps": [
