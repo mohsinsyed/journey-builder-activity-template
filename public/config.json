@@ -30,6 +30,7 @@
         }
     },
     "configurationArguments": {
+       "applicationExtensionKey": "328a23ac-18b5-4f8f-98a7-001b183a4efc",
        "save": {
            "url": "https://eneyig9pql1a.x.pipedream.net/save"
        },
