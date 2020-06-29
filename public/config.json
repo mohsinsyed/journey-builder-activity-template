@@ -15,12 +15,6 @@
         "execute": {
             "inArguments": [
                 {
-                    "emailAddress": "muhsin.bukhari123@visionet.com"
-                },
-                {
-                    "phoneNumber": "12345"
-                },
-                {
                     "Values": ["muhsin.bukhari123@visionet.com"]
                 },
                 {
@@ -32,10 +26,10 @@
                     "foundSignupDate": ""
                 }
             ],
-            "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys"
+            "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys",
             "verb": "POST",
              "body": "",
-             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJaMFYxaTU1SkVNQjd5R0FhZm9OR0tyUkciLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.OD9iOTst1H8SQ5xc1ppMz5JvQY4UREazzf2rQxjeHPI.WOhWgUN0azG44rlGvW2Pwk5aOFfHtRNfbsnSCJzFUO0XwsAc8-gY0H_uo2BjkeiSHed9rZaSkqLV9xJ6omKV8pLLLvutcs5mQmfX2RKy-93gP-u1R6NXhS8dRvvWnS0dWbDNmGPs5KoYF2ouurmQI_s1mmN24KrvdKjMkCvSj6Q5uoBh5WN",
+             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJaa2FqZDJYb0MzQTg4TGNqeUI1VE93UjgiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.3DjuSdJLLWXu0x7furC0NyQrAnqLheNq022rZV69WrM.vslb2AcB6HW4koyVdaUbYtl30H-_5GP7TktryxceV2mMokOPe7baIze5ZLdNBAJx_BJ571T-KtpmYIm8lh1dmjsjCNJhjOcinK1HBn-rrUpI-c8FpGcVjnhpKRstHo0ZW8p7KvsvEG8rV1OntiNaurI_c5xOWPbUDXpa92PL9X4fLaq1L4N",
              "format": "json",
              "useJwt": false,
              "timeout": 10000
@@ -73,22 +67,9 @@
         "arguments": {
             "execute": {
                 "inArguments": [
+                   
                     {
-                        "phoneNumber": {
-                            "dataType": "Phone",
-                            "isNullable": false,
-                            "direction": "in"   
-                        }
-                    },
-                    {
-                        "emailAddress": {
-                            "dataType": "Email",
-                            "isNullable": false,
-                            "direction": "in"
-                        }
-                    },
-                    {
-                        "Token": {
+                        "DeleteOperationType": {
                             "dataType": "String",
                             "isNullable": false,
                             "direction": "in"
