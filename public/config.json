@@ -21,10 +21,10 @@
                     "phoneNumber": "12345"
                 },
                 {
-                    "Token": "eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJacEY4T2FjRm4zT250UVlzUEFKbjNUSWMiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.4ASLw835BR3wJdtt0nqWr5G11h_pvXoIu9NinQUmG-s.QpskmcU9vd51fiQt1wc2REiSa8e1UdmNoKNIRGIHliTZC3B2shVlPvzII1k5YPXqyptDplerBvDBl_gh9Xl7bef_U8uXwJIyLCzL7C6AU0CuXnnGxPDNLQSAtBsdREmDTbVxOgwpUwoJEHkq4BnBQUO4c5f_tKn2MiXGFwt2FejjSJ95Dhk"
+                    "Values": ["muhsin.bukhari123@visionet.com"]
                 },
                 {
-                    "Values": "muhsin.bukhari123@visionet.com"
+                    "DeleteOperationType": "ContactAndAttributes"
                 }
             ],
             "outArguments": [
@@ -32,7 +32,13 @@
                     "foundSignupDate": ""
                 }
             ],
-            "url": "https://eneyig9pql1a.x.pipedream.net/execute"
+            "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys"
+            "verb": "POST",
+             "body": "",
+             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJaMFYxaTU1SkVNQjd5R0FhZm9OR0tyUkciLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.OD9iOTst1H8SQ5xc1ppMz5JvQY4UREazzf2rQxjeHPI.WOhWgUN0azG44rlGvW2Pwk5aOFfHtRNfbsnSCJzFUO0XwsAc8-gY0H_uo2BjkeiSHed9rZaSkqLV9xJ6omKV8pLLLvutcs5mQmfX2RKy-93gP-u1R6NXhS8dRvvWnS0dWbDNmGPs5KoYF2ouurmQI_s1mmN24KrvdKjMkCvSj6Q5uoBh5WN",
+             "format": "json",
+             "useJwt": false,
+             "timeout": 10000
         }
     },
     "configurationArguments": {
@@ -90,7 +96,7 @@
                     },
                     {
                         "Values": {
-                            "dataType": "String",
+                            "dataType": "Array",
                             "isNullable": false,
                             "direction": "in"
                         }
