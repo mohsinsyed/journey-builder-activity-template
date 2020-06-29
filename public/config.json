@@ -80,6 +80,20 @@
                             "isNullable": false,
                             "direction": "in"
                         }
+                    },
+                    {
+                        "Token": {
+                            "dataType": "String",
+                            "isNullable": false,
+                            "direction": "in"
+                        }
+                    },
+                    {
+                        "Values": {
+                            "dataType": "String",
+                            "isNullable": false,
+                            "direction": "in"
+                        }
                     }
                 ],
                 "outArguments": [
