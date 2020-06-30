@@ -27,11 +27,11 @@
                 }
             ],
             "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys",
-            "verb": "POST",
+            "method": "POST",
              "body": "",
-             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJaa2FqZDJYb0MzQTg4TGNqeUI1VE93UjgiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.3DjuSdJLLWXu0x7furC0NyQrAnqLheNq022rZV69WrM.vslb2AcB6HW4koyVdaUbYtl30H-_5GP7TktryxceV2mMokOPe7baIze5ZLdNBAJx_BJ571T-KtpmYIm8lh1dmjsjCNJhjOcinK1HBn-rrUpI-c8FpGcVjnhpKRstHo0ZW8p7KvsvEG8rV1OntiNaurI_c5xOWPbUDXpa92PL9X4fLaq1L4N",
+             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJackZMVVpkTEEwUEhEQ0RLbGxiSTJGV2UiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.7hZRkYF4Vcmq6LY41_elmS7yCaBB1y7d5RIQzggOScw.eRQuqXVmYxNkAbgIJe8H_pt2hV8GzW9ZDgBSJ_TrJnUmyxQPAfNgHuGhcocZ6XMwuxEbspCZx6uk1Jt1FDweeNtC4lra-P2oFWd-ZVvoPyWNIWviz3PkjQRpaixY6wmkgvms1gYZVcMUc5wpGmJQvJV15_LRPKhnXVVVcY3RUCpd2uJiPGk",
              "format": "json",
-             "useJwt": false,
+             "useJwt": true,
              "timeout": 10000
         }
     },
