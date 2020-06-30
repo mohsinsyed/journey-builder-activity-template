@@ -13,25 +13,19 @@
     },
     "arguments": {
         "execute": {
-            "inArguments": [
-                {
-                    "Values": ["muhsin.bukhari123@visionet.com"]
-                },
-                {
-                    "DeleteOperationType": "ContactAndAttributes"
-                }
-            ],
-            "outArguments": [
-                {
-                    "foundSignupDate": ""
-                }
-            ],
+            "inArguments": [],
+            "outArguments": [],
             "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys",
             "method": "POST",
-             "body": "",
-             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJackZMVVpkTEEwUEhEQ0RLbGxiSTJGV2UiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.7hZRkYF4Vcmq6LY41_elmS7yCaBB1y7d5RIQzggOScw.eRQuqXVmYxNkAbgIJe8H_pt2hV8GzW9ZDgBSJ_TrJnUmyxQPAfNgHuGhcocZ6XMwuxEbspCZx6uk1Jt1FDweeNtC4lra-P2oFWd-ZVvoPyWNIWviz3PkjQRpaixY6wmkgvms1gYZVcMUc5wpGmJQvJV15_LRPKhnXVVVcY3RUCpd2uJiPGk",
+             "body": {
+                "values": [
+                    "muhsin.bukhari123@visionet.com", "muhsin.bukhari@visionet.com"
+                ],
+                "DeleteOperationType": "ContactAndAttributes"
+            },
+             "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJaS2xOWXcyRzV1WEtmYmJmWUpSWU5Za2UiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.VU_syAFlwSekvw1aaWcU7R4tt3QBmXl0i7I73h-Vk1g.5nSHny0aA9CPAyI9_1GRQGOIZ9XiAxsFF5DHzpUjf2EeWD7CiLPyc-KqRhdvTYlrjaevL-7VJuJYgYedUjQ6bITBH6cTz7ivlvTzN7wElsoGW0HtdFBySTFbaQYsVSCtb9qSri7iV77v_5j64e8mVOu9lvbzTfc0TtV1uGWxg0HTRcficee",
              "format": "json",
-             "useJwt": true,
+             "useJwt": false,
              "timeout": 10000
         }
     },
@@ -66,32 +60,8 @@
     "schema": {
         "arguments": {
             "execute": {
-                "inArguments": [
-                   
-                    {
-                        "DeleteOperationType": {
-                            "dataType": "String",
-                            "isNullable": false,
-                            "direction": "in"
-                        }
-                    },
-                    {
-                        "Values": {
-                            "dataType": "Array",
-                            "isNullable": false,
-                            "direction": "in"
-                        }
-                    }
-                ],
-                "outArguments": [
-                    {
-                        "foundSignupDate": {
-                            "dataType": "Date",
-                            "direction": "out",
-                            "access": "visible"
-                        }
-                    }
-                ]
+                "inArguments": [],
+                "outArguments": []
             }
         }
     }
