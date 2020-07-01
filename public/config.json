@@ -13,7 +13,14 @@
     },
     "arguments": {
         "execute": {
-            "inArguments": [],
+            "inArguments": [{
+                 "values": [
+                    "TEST_317-531-5555", "TEST_317-531-5556"
+                ]
+            },
+            {
+                "DeleteOperationType": "ContactAndAttributes"
+            }],
             "outArguments": [],
             "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys",
             "method": "POST",
