@@ -17,12 +17,7 @@
             "outArguments": [],
             "url": "https://mcm7-qhy3117wyjvmxj9n8r1kxs4.rest.marketingcloudapis.com/contacts/v1/contacts/actions/delete?type=keys",
             "method": "POST",
-             "body": {
-                "values": [
-                    "muhsin.bukhari123@visionet.com", "muhsin.bukhari@visionet.com"
-                ],
-                "DeleteOperationType": "ContactAndAttributes"
-            },
+             "body": "",
              "header": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjEiLCJ2ZXIiOiIxIiwidHlwIjoiSldUIn0.eyJhY2Nlc3NfdG9rZW4iOiJaS2xOWXcyRzV1WEtmYmJmWUpSWU5Za2UiLCJjbGllbnRfaWQiOiJubXdzY2hmajVsMDZ2NW9mcXR6bWljbjciLCJlaWQiOjEwMDAxNzE1Mywic3RhY2tfa2V5IjoiUzEwIiwicGxhdGZvcm1fdmVyc2lvbiI6MiwiY2xpZW50X3R5cGUiOiJTZXJ2ZXJUb1NlcnZlciJ9.VU_syAFlwSekvw1aaWcU7R4tt3QBmXl0i7I73h-Vk1g.5nSHny0aA9CPAyI9_1GRQGOIZ9XiAxsFF5DHzpUjf2EeWD7CiLPyc-KqRhdvTYlrjaevL-7VJuJYgYedUjQ6bITBH6cTz7ivlvTzN7wElsoGW0HtdFBySTFbaQYsVSCtb9qSri7iV77v_5j64e8mVOu9lvbzTfc0TtV1uGWxg0HTRcficee",
              "format": "json",
              "useJwt": false,
